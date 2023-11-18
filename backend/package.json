@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "dev": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "better-sqlite3": "^9.1.1",
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.7",
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}
